@@ -30,8 +30,8 @@ def telegram_bot_sendtext(bot_message, TOKEN, bot_chatID):
     return response.json()
 
 def telegrambot():
-    TOKEN = '5254207098:AAEEY3_TJ_XkKTJzI1PQtIwCBFeIFcwZCOw'
-    bot_chatID = '5081465356'
+    TOKEN = ''
+    bot_chatID = ''
     coins = ('ETHUSDT','ILVUSDT','MATICUSDT','MLNUSDT','AVAXUSDT','AAVEUSDT','BNBUSDT','SOLUSDT','GMTUSDT','LUNAUSDT','ADAUSDT','AXSUSDT','CELOUSDT','SANDUSDT','FLUXUSDT','FTMUSDT','ALGOUSDT','YFIUSDT')
     W = 50
     lookback = str(W+1)
